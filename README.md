@@ -71,4 +71,4 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 - Copy the install-web.yml file to /etc/ansible/
 - Update the host file. Add the internal IP address of your web servers under the object [webservers] with the extension "ansible_python_interpreter=/usr/bin/python3"
-- Run the playbook, and navigate to http://http://[your-ip]:5601/app/kibana to check that the installation worked as expected.
+- Run the playbook, and navigate to http://[your-ip]:5601/app/kibana to check that the installation worked as expected.
